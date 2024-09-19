@@ -10,3 +10,6 @@ Current cross-modal retrieval methods are categorized into five overarching cate
 ## Cross-modal retrieval beyond text-image
 This project also offers a comprehensive review of cross-modal retrieval methods that involve modalities beyond text-image, including text-video, text-audio, image-audio, image3D, and more. 
 ![A compilation of representative cross-modal retrieval methods beyond text-image retrieval.](_README.sup/beyond_text-image.png)
+
+# Copyright Notice
+The code in the Code Library is owned by its original authors.  We collect and provide access to these codes solely to facilitate research and advance scientific understanding.  This repository does not use or distribute the code for any commercial purposes.
