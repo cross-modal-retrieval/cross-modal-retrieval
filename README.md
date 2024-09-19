@@ -8,4 +8,4 @@ We develop a user-friendly toolbox for cross-modal retrieval, allowing users to 
 We collect as many cross-modal retrieval codes as possible, all of which are original source code written by the authors themselves.
 
 ## [Data Repository](https://github.com/cross-modal-retrieval/cross-modal-retrieval/tree/main/Data-repository)
-We gather commonly used baseline datasets for cross-modal retrieval tasks, as well as some versions that are processed for easier use.
+We gather commonly used baseline datasets for cross-modal retrieval tasks.
