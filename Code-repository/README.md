@@ -14,4 +14,4 @@ This project also offers a comprehensive review of cross-modal retrieval methods
 # Copyright Notice
 These codes in the Code Repository is owned by their original authors. 
 Users must acknowledge the original sources when using these codes.
-We collect and provide access to these codes solely to facilitate research and advance scientific understanding. This repository does not use or distribute the code for any commercial purposes.
+We collect and provide access to these codes solely to facilitate research and advance scientific understanding. This repository does not use or distribute these codes for any commercial purposes.
