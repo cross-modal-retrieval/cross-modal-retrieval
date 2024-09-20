@@ -12,8 +12,8 @@ This project also offers a comprehensive review of cross-modal retrieval methods
 ![A compilation of representative cross-modal retrieval methods beyond text-image retrieval.](_README.sup/beyond_text-image.png)
 
 # Copyright Notice
-<div style="text-align: justify;">
+<p style="text-align: justify;">
 These codes in the Code Repository is owned by their original authors. 
 Users must acknowledge the original sources when using these codes.
 We collect and provide access to these codes solely to facilitate research and advance scientific understanding. This repository does not use or distribute these codes for any commercial purposes.
-</div>
+</p>
