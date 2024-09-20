@@ -8,6 +8,7 @@ Cross-modal retrieval datasets typically comprise multiple modalities with uniqu
 ## List of datasets
 **1. Wikipedia**
 Source: http://www.svcl.ucsd.edu/projects/crossmodal/
+
 Reference: N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 **2. Pascal-Sentence**
