@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+
 # Supported Repositories
 This is a supporting repository for the website (https://cross-modal-retrieval.github.io/), which includes toolbox, code repository, and data repository.
 
@@ -9,3 +11,5 @@ We collect as many cross-modal retrieval codes as possible, all of which are ori
 
 ## [Data Repository](https://github.com/cross-modal-retrieval/cross-modal-retrieval/tree/main/Data-repository)
 We gather commonly used baseline datasets for cross-modal retrieval tasks.
+
+</div>
