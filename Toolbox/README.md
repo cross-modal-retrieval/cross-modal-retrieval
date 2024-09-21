@@ -39,12 +39,14 @@ mkdir -p ./data
 
 2. Download datasets
 - [Baidu Yun Link](https://pan.baidu.com/s/1QnC4ZyvjKOakKtUR9Cqd4A)
-- **Code:** `6fb3`  
+- **Code:** `6fb3`
+
 Once the datasets are downloaded, move the downloaded dataset files to the `./data` directory.
 
 3. Download pre-trained models
 - [Baidu Yun Link](https://pan.baidu.com/s/1fJm8t9-YoSJ-4wSRv7ugxA)
-- **Code:** `6fb3`  
+- **Code:** `6fb3`
+
 Once the models are downloaded, move the downloaded model files to the `./data` directory.
 
 4. Verify the datasets and models  
