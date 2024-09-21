@@ -6,9 +6,9 @@ By presenting these tools in an accessible format, we aim to streamline the proc
 
 # Introduction
 In this toolbox, we have integrated some representative cross-modal retrieval methods. Since these methods utilize different programming languages (such as Matlab and Python), development frameworks (such as TensorFlow and Torch), and diverse dependencies, we have organized them into three main environments:  
-1) **Matlab**, to support all shallow cross-modal retrieval methods;  
-2) **TensorFlow**, to support some deep cross-modal retrieval methods;  
-3) **Torch**, to support some deep cross-modal retrieval methods.
+1. **Matlab**, to support all shallow cross-modal retrieval methods;  
+2. **TensorFlow**, to support some deep cross-modal retrieval methods;  
+3. **Torch**, to support some deep cross-modal retrieval methods.
 
 Once the toolbox and datasets are stored and the above environments is set up, you can invoke the integrated cross-modal retrieval methods by running the `train.sh` file within the toolbox.
 
