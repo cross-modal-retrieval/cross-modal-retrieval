@@ -39,11 +39,11 @@ mkdir -p ./model
 ```
 
 2. Download datasets
-- [Baidu Yun Link](https://pan.baidu.com/s/1QnC4ZyvjKOakKtUR9Cqd4A) (**Code:** `6fb3`)
+- [Baidu Yun Link](https://pan.baidu.com/s/1QnC4ZyvjKOakKtUR9Cqd4A) (**password:** `6fb3`)
 - Once the datasets are downloaded, move the downloaded dataset files to the `./data` directory.
 
 3. Download pre-trained models
-- [Baidu Yun Link](https://pan.baidu.com/s/1fJm8t9-YoSJ-4wSRv7ugxA) (**Code:** `6fb3)
+- [Baidu Yun Link](https://pan.baidu.com/s/1fJm8t9-YoSJ-4wSRv7ugxA) (**password:** `6fb3`)
 - Once the models are downloaded, move the downloaded model files to the `./model` directory.
 
 4. Verify the datasets and models  
@@ -71,7 +71,7 @@ bash environments/install_env_torch.sh
 
 3. Install the Matlab environment
 Download and install any version of Matlab from the official Matlab website below, ensuring that Matlab can be directly invoked from the command line.
-[MATLAB Website](https://www.mathworks.com/products/matlab.html)
+- [MATLAB Website](https://www.mathworks.com/products/matlab.html)
 
 ## Use the toolbox
 
