@@ -17,7 +17,7 @@ Once the toolbox and datasets are stored and the above environments is set up, y
 Below, we showcase how to use the cross-modal retrieval toolbox we developed.
 
 ## Install the toolbox
-This guide provides step-by-step instructions for installing the cross-modal retrieval toolbox into the `. /` directory on your local machine.
+This guide provides step-by-step instructions for installing the cross-modal retrieval toolbox into the `./` directory on your local machine.
 
 1. Clone the repository  
 ```bash
@@ -29,7 +29,18 @@ git clone https://github.com/cross-modal-retrieval/cross-modal-retrieval.git
 cd cross-modal-retrieval/Toolbox
 ```
 
-## Download datasets
+## Configure datasets
+The dataset for the Cross-Modal Retrieval Toolbox is available via Baidu Yun. Follow the steps below to download and install the dataset into the cross-modal-retrieval/Toolbox/data directory.
+
+1. 
+
+
+2. Create the directory
+
+
+
+
+
 
 
 ## Configure environments
