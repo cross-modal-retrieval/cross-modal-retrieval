@@ -74,10 +74,22 @@ Download and install any version of Matlab from the official Matlab website belo
 - [MATLAB Website](https://www.mathworks.com/products/matlab.html)
 
 ## Use the toolbox
+This toolbox allows you to run integrated cross-modal retrieval methods directly via the `training.py` script.
 
+1. Activate the required environment
+``` bash
+conda activate cmr_toolbox_tf
+```
+or
+``` bash
+conda activate cmr_toolbox_torch
+```  
+If the cross-modal retrieval method you want to run is using Matlab, you can skip this step, as no environment activation is required for Matlab.
 
-# Integrated methods
-## List of integrated methods
+2. Run the cross-modal retrieval method
+``` bash
+python training.py
+```
 
 ## Note
 Our toolbox is still in its initial version, and more cross-modal retrieval methods are continuously being added. If you have any questions, please feel free to leave us a message!
