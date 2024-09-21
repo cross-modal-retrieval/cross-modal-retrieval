@@ -32,4 +32,14 @@ Below, we showcase how to use the cross-modal retrieval toolbox we developed.
 Our toolbox is still in its initial version, and more cross-modal retrieval methods are continuously being added. If you have any questions, please feel free to leave us a message!
 
 # Cite our paper
-
+    <div class="container is-max-widescreen content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+@article{li2023cross,
+      title={Cross-modal retrieval: a systematic review of methods and future directions},
+      author={Li, Fengling and Zhu, Lei and Wang, Tianshi and Li, Jingjing and Zhang, Zheng and Shen, Heng Tao},
+      journal={arXiv preprint arXiv:2308.14263},
+      year={2023}
+      }
+        </code></pre>
+    </div>
