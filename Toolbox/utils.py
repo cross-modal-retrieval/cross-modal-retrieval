@@ -74,6 +74,6 @@ def get_runtime_env():
     env = os.environ.copy()
     
     # set runtime env
-    env['CUDA_VISIBLE_DEVICES'] = '3'
+    env['CUDA_VISIBLE_DEVICES'] = '0'
     
     return env
