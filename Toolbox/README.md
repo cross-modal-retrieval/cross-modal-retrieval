@@ -34,7 +34,7 @@ Below, we showcase how to use the cross-modal retrieval toolbox we developed.
 ## Note
 Our toolbox is still in its initial version, and more cross-modal retrieval methods are continuously being added. If you have any questions, please feel free to leave us a message!
 
-# Cite our paper
+# Citation
 If you find this toolbox helpful, please cite our paper:
 ```
 @article{li2023cross,
