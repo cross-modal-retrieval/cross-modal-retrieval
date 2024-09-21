@@ -80,7 +80,7 @@ This toolbox allows you to run integrated cross-modal retrieval methods directly
 ``` bash
 conda activate cmr_toolbox_tf
 ```
-or
+- or
 ``` bash
 conda activate cmr_toolbox_torch
 ```  
