@@ -1,0 +1,15 @@
+conda_home: '/home/xgxy/.conda/envs'
+matlab_home: '/usr/local/matlab2017b'
+
+scmh:
+  batch:
+    executor_env_name: 'matlab'
+    learning_principle: 'shallow'
+  dcmh:
+    executor_env_name: 'survey_tf'
+    learning_principle: 'deep'
+
+ucmh:
+  djsrh:
+    executor_env_name: 'survey_torch'
+    learning_principle: 'deep'
