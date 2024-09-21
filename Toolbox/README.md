@@ -30,20 +30,46 @@ cd cross-modal-retrieval/Toolbox
 ```
 
 ## Configure datasets
-The dataset for the Cross-Modal Retrieval Toolbox is available via Baidu Yun. Follow the steps below to download and install the dataset into the cross-modal-retrieval/Toolbox/data directory.
+The dataset for the Cross-Modal Retrieval Toolbox is available via Baidu Yun. Follow the steps below to download and install the dataset into the `cross-modal-retrieval/Toolbox/data` directory.
 
-1. 
+1. Create the directory
+```bash
+mkdir -p ./data
+```
 
+2. Download datasets
+- [Baidu Yun Link](https://pan.baidu.com/s/1QnC4ZyvjKOakKtUR9Cqd4A)
+- **Code:** `6fb3`
+Once the datasets are downloaded, move the downloaded dataset files to the `./data` directory.
 
-2. Create the directory
+3. Download pre-trained models
+- [Baidu Yun Link](https://pan.baidu.com/s/1fJm8t9-YoSJ-4wSRv7ugxA)
+- **Code:** `6fb3`
+Once the models are downloaded, move the downloaded model files to the `./data` directory.
 
-
-
-
-
-
+4. Verify the datasets and models
+```bash
+ls ./data
+```
 
 ## Configure environments
+This guide provides step-by-step instructions for setting up the environment for the cross-modal retrieval toolbox.  The toolbox supports different environments for Matlab, TensorFlow, and Torch, and you can configure them accordingly.
+
+1. Install the TensorFlow environment
+``` bash
+conda create -n cmr_toolbox_tf python=3.7.16
+conda activate cmr_toolbox_tf
+bash environments/install_env_tf.sh
+```
+
+2. Install the Torch environment
+``` bash
+conda create -n cmr_toolbox_torch python=3.7.16
+conda activate cmr_toolbox_torch
+bash environments/install_env_torch.sh
+```
+
+3. Install the Matlab environment
 
 
 ## Use the toolbox
