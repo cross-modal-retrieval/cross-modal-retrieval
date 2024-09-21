@@ -29,27 +29,27 @@ git clone https://github.com/cross-modal-retrieval/cross-modal-retrieval.git
 cd cross-modal-retrieval/Toolbox
 ```
 
-## Configure datasets
-The dataset for the Cross-Modal Retrieval Toolbox is available via Baidu Yun. Follow the steps below to download and install the dataset into the `cross-modal-retrieval/Toolbox/data` directory.
+## Configure datasets and pre-trained models
+The datasets and pre-trained models for the cross-modal retrieval toolbox are available via Baidu Yun. Follow the steps below to download and install.
 
 1. Create the directory
 ```bash
 mkdir -p ./data
+mkdir -p ./model
 ```
 
 2. Download datasets
-- [Baidu Yun Link](https://pan.baidu.com/s/1QnC4ZyvjKOakKtUR9Cqd4A)
-- **Code:** `6fb3`
+- [Baidu Yun Link](https://pan.baidu.com/s/1QnC4ZyvjKOakKtUR9Cqd4A) (**Code:** `6fb3`)
 - Once the datasets are downloaded, move the downloaded dataset files to the `./data` directory.
 
 3. Download pre-trained models
-- [Baidu Yun Link](https://pan.baidu.com/s/1fJm8t9-YoSJ-4wSRv7ugxA)
-- **Code:** `6fb3`
-- Once the models are downloaded, move the downloaded model files to the `./data` directory.
+- [Baidu Yun Link](https://pan.baidu.com/s/1fJm8t9-YoSJ-4wSRv7ugxA) (**Code:** `6fb3)
+- Once the models are downloaded, move the downloaded model files to the `./model` directory.
 
 4. Verify the datasets and models  
 ```bash
 ls ./data
+ls ./model
 ```
 
 ## Configure environments
@@ -70,7 +70,8 @@ bash environments/install_env_torch.sh
 ```
 
 3. Install the Matlab environment
-
+Download and install any version of Matlab from the official Matlab website below, ensuring that Matlab can be directly invoked from the command line.
+[MATLAB Website](https://www.mathworks.com/products/matlab.html)
 
 ## Use the toolbox
 
