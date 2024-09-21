@@ -6,7 +6,8 @@ Cross-modal retrieval datasets typically comprise multiple modalities with uniqu
 <img src="_README.sup/1726731371332.png" alt="Detailed statistics for cross-modal retrieval datasets. Modality: T is text, I is image, V is video, A is audio, and 3D is 3D model. Label: S is single-label and M is multi-label." width="600">
 
 ## List of datasets
-**1. Wikipedia**- **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
+**1. Wikipedia**
+- **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 **2. Pascal-Sentence**  
