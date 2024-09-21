@@ -1,4 +1,4 @@
-conda_home: '/home/xgxy/.conda/envs'
+conda_home: '~/.conda/envs'
 matlab_home: '/usr/local/matlab2017b'
 
 scmh:
@@ -6,10 +6,10 @@ scmh:
     executor_env_name: 'matlab'
     learning_principle: 'shallow'
   dcmh:
-    executor_env_name: 'survey_tf'
+    executor_env_name: 'cmr_toolbox_tf'
     learning_principle: 'deep'
 
 ucmh:
   djsrh:
-    executor_env_name: 'survey_torch'
+    executor_env_name: 'cmr_toolbox_torch'
     learning_principle: 'deep'
