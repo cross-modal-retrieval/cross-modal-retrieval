@@ -10,9 +10,16 @@ In this toolbox, we have integrated some representative cross-modal retrieval me
 2) **TensorFlow**, to support some deep cross-modal retrieval methods;  
 3) **Torch**, to support some deep cross-modal retrieval methods.
 
-Once the environment is set up, you can invoke the integrated cross-modal retrieval methods by running the `train.sh` file within the toolbox.
+Once the toolbox and datasets are stored and the above environments is set up, you can invoke the integrated cross-modal retrieval methods by running the `train.sh` file within the toolbox.
 
 
 # Instruction
-Below we demonstrate how to use the cross-modal retrieval toolbox we developed.
+Below, we showcase how to use the cross-modal retrieval toolbox we developed.
 
+## Install the toolbox
+
+
+## Download datasets
+
+
+## 
