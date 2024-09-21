@@ -1,5 +1,5 @@
 # A Cross-modal Retrieval Toolbox and Open-source Repositories
-This is a supporting toolbox and repositories for the website (https://cross-modal-retrieval.github.io/), which includes a user-friendly toolbox, a code repository, and a data repository.
+This is the supporting toolbox and repositories for the website (https://cross-modal-retrieval.github.io/), which includes a user-friendly toolbox, a code repository, and a data repository.
 
 ## [Toolbox](https://github.com/cross-modal-retrieval/cross-modal-retrieval/tree/main/Toolbox)
 <div style="text-align: justify;">
