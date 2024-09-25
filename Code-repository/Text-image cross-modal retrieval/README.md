@@ -5,7 +5,57 @@ We gather representative text-image cross-modal retrieval codes that are availab
 **1. **  
 - **Paper:** 
 - **Source:** 
-- **Reference:** 
+- **Reference:**
+
+**2. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+**3. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+**4. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+**5. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+## Supervised real-value retrieval
+**1. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+
+## Unsupervised hashing retrieval
+**1. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+
+## Supervised hashing retrieval
+**1. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+
+## Cross-modal retrieval under special scenarios
+**1. **  
+- **Paper:** 
+- **Source:** 
+- **Reference:**
+
+
+
 
 # Copyright Notice
 These codes in the Code Repository are owned by their original authors. 
