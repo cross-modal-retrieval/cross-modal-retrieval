@@ -36,32 +36,36 @@ We gather representative cross-modal retrievalcodes beyond text-image that are a
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 ## Image-audio cross-modal retrieval
-**1. Wikipedia**
+**1. ALAC**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 ## Video-audio cross-modal retrieval
-**1. Wikipedia**
+**1. AClENet**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 ## Image-3D cross-modal retrieval
-**1. Wikipedia**
+**1. RONO**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 ## Text-3D cross-modal retrieval
-**1. Wikipedia**
+**1. RMARN**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 ## Text-motion cross-modal retrieval
-**1. Wikipedia**
+**1. TMR**
+- **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
+- **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
+
+- **2. TMR++**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
 ## Image-video cross-modal retrieval
-**1. Wikipedia**
+**1. APIVR**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
