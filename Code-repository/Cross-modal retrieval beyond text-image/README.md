@@ -60,7 +60,7 @@ We gather representative cross-modal retrievalcodes beyond text-image that are a
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
-- **2. TMR++**
+**2. TMR++**
 - **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
 - **Reference:** N. Rasiwasia, J. C. Pereira, E. Coviello, G. Doyle, G. R. G. Lanckriet, R. Levy, and N. Vasconcelos, “A new approach to cross-modal multimedia retrieval,” in ACM MM, 2010, pp. 251–260.
 
