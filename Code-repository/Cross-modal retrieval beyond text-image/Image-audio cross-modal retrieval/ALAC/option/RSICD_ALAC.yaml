@@ -1,0 +1,37 @@
+model:
+    multiscale:
+        multiscale_input_channel: 3
+        multiscale_output_channel: 1
+    cross_attention:
+        att_type: "ls_att"
+    embed:
+        embed_dim: 256
+    name: ALAC
+dataset:
+    datatype: rsicd
+    data_split:
+    data_path: './data/rsicd_precomp/'
+    image_path: './data/rsicd_images/'
+    audio_path: './data/rsicd_audios/'
+    audio_mat_path: './data/rsicd_mat/'
+    batch_size: 60
+    batch_size_val: 60
+    workers: 3
+optim:
+    epochs: 45
+    lr: 0.0001
+    lr_decay_param: 0.7
+    lr_update_epoch: 20
+    grad_clip: 0
+    max_violation: 0
+    margin: 0.2
+    resume: False
+logs:
+    eval_step: 1
+    print_freq: 100
+    ckpt_save_path: "checkpoint/"
+    logger_name: 'logs/'
+k_fold:
+    experiment_name: 'rsicd_aba_new_fusion1_sum_dali3'
+    nums: 2
+    current_num: 0

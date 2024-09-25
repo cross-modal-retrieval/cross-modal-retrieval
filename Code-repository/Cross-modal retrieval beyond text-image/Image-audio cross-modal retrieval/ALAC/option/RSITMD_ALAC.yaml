@@ -1,0 +1,37 @@
+model:
+    multiscale:
+        multiscale_input_channel: 3
+        multiscale_output_channel: 1
+    cross_attention:
+        att_type: "ls_att"
+    embed:
+        embed_dim: 256
+    name: AMFMN
+dataset:
+    datatype: rsitmd
+    data_split:
+    data_path: './data/rsitmd_precomp/'
+    image_path: './data/rsitmd_images/'
+    audio_path: './data/rsitmd_audios/'
+    audio_mat_path: './data/rsitmd_mat/'
+    batch_size: 60
+    batch_size_val: 60
+    workers: 4
+optim:
+    epochs: 40
+    lr: 0.0002
+    lr_decay_param: 0.7
+    lr_update_epoch: 20
+    grad_clip: 2
+    max_violation: 0
+    margin: 0.2
+    resume: False
+logs:
+    eval_step: 1
+    print_freq: 100
+    ckpt_save_path: "checkpoint/"
+    logger_name: 'logs/'
+k_fold:
+    experiment_name: 'rsitmd_aba_mv_baseline2'
+    nums: 2
+    current_num: 0
