@@ -106,7 +106,7 @@ We gather representative cross-modal retrievalcodes beyond text-image that are a
 ## Image-video cross-modal retrieval
 **1. APIVR**
 - **Paper:** https://ojs.aaai.org/index.php/AAAI/article/view/6941
-- **Source:** 
+- **Source:** https://github.com/xuweitj/Cross-modal-retrieval/tree/master/APIVR-master
 - **Reference:** R. Xu, L. Niu, J. Zhang, and L. Zhang, “A proposal-based approach for activity image-to-video retrieval,” in AAAI, vol. 34, no. 07, 2020, pp. 12524–12531.
 
 # Copyright Notice
