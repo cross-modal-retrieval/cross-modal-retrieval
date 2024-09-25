@@ -1,5 +1,5 @@
 # Code Repository
-We collect as many cross-modal retrieval codes as possible, all of which are original source code written by the authors themselves.
+We collect as many representative cross-modal retrieval codes as possible, all of which are original source code written by the authors themselves.
 
 The repository is divided into two main branches: **Text-image cross-modal retrieval** and **Cross-modal retrieval beyond text-image**.
 
@@ -14,6 +14,6 @@ This project also offers a comprehensive review of cross-modal retrieval methods
 # Copyright Notice
 <p style="text-align: justify;">
 These codes in the Code Repository is owned by their original authors. 
-Users must acknowledge the original sources when using these codes.
+Users must statement the original sources when using these codes.
 We collect and provide access to these codes solely to facilitate research and advance scientific understanding. This repository does not use or distribute these codes for any commercial purposes.
 </p>
