@@ -1,0 +1,27 @@
+{
+    "inherit_from": "configs/data_loader_audiocaps.json",
+    "experts": {
+        "modalities": [
+            "vggish"
+        ]
+    },
+    "arch": {
+        "args": {
+            "text_agg":"rvlad"
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "vggish": {
+                    "model": "vggish",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

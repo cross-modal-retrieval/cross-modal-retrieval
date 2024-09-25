@@ -1,0 +1,27 @@
+{
+    "inherit_from": "configs/data_loader_audiocaps.json",
+    "experts": {
+        "modalities": [
+            "vggsound"
+        ]
+    },
+    "arch": {
+        "args": {
+            "text_agg":"rvlad"
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "vggsound": {
+                    "model": "vggsound",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

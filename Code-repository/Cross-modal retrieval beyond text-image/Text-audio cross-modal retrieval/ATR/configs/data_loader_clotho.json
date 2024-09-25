@@ -1,0 +1,80 @@
+{
+    "inherit_from": "configs/base_config.json",
+    "eval_mode": "test_run",
+    "experts": {
+        "text_feat": "w2v",
+        "modalities": [
+            "panns_cnn14"
+        ]
+    },
+    "arch": {
+        "type": "Net",
+        "args": {
+            "l2renorm": true,
+           "max_position_embeddings":{
+               "text":20, 
+               "vggish": 31,
+                "panns_cnn10": 120,
+                "panns_cnn14": 90,
+                "vggsound": 95
+           }
+        }
+    },
+    "optimizer": {
+        "type": "Ranger",
+        "args": {
+            "lr": 0.01,
+            "weight_decay": 1E-03
+        }
+    },
+    "loss": {
+        "type": "MaxMarginRankingLoss",
+        "args": {
+            "margin": 0.2,
+            "fix_norm": true
+        }
+    },
+    "data_loader": {
+        "root":"data/CLOTHO",
+        "dataset": "CLOTHO",
+        "batch_size": 128,
+        "split_name": "val",
+        "num_test_captions": 5,
+        "max_words": 20,
+        "audio_padding_length":{
+            "lms":90,
+            "vggish": 31,
+            "panns_cnn10": 120,
+            "panns_cnn14": 90,
+            "vggsound": 95
+            }
+    },
+    "metrics":[
+        "t2a_metrics",
+        "a2t_metrics"
+    ],
+    "trainer": {
+        "epochs": 20
+    },
+    "eval_settings": {
+        "data_loader": {
+            "args": {
+                "split_name": "test",
+                "num_test_captions": 5
+            }
+        },
+        "tester": {
+            "save_dir": "data/saved/",
+            "verbosity": 2
+        },
+        "disable_gpu": true
+    },
+    "visualizer": {
+        "type": "Visualizer",
+        "args":{
+            "src_video_dir": "data/CLOTHO/videos",
+            "vis_vid_freq": 500,
+            "num_samples": 100
+        }
+    }
+}

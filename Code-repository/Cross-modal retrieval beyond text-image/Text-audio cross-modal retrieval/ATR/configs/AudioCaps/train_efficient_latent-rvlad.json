@@ -1,0 +1,27 @@
+{
+    "inherit_from": "configs/data_loader_audiocaps.json",
+    "experts": {
+        "modalities": [
+            "efficient_latent"
+        ]
+    },
+    "arch": {
+        "args": {
+            "text_agg":"rvlad"
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "efficient_latent": {
+                    "model": "efficient_latent",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

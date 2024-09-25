@@ -1,0 +1,74 @@
+{
+    "inherit_from": "configs/base_config.json",
+    "eval_mode": "test_run",
+    "experts": {
+        "text_feat": "w2v",
+        "modalities": [
+            "panns_cnn14"
+        ]
+    },
+    "arch": {
+        "type": "Net",
+        "args": {
+            "l2renorm": true,
+            "max_position_embeddings":{
+                "text":20, 
+                "vggish": 10,
+                "panns_cnn10": 62,
+                "panns_cnn14": 31,
+                "vggsound": 29,
+                "efficient_latent":32
+            }
+        }
+    },
+    "optimizer": {
+        "type": "Ranger",
+        "args": {
+            "lr": 0.01,
+            "weight_decay": 1E-03
+        }
+    },
+    "loss": {
+        "type": "MaxMarginRankingLoss",
+        "args": {
+            "margin": 0.2,
+            "fix_norm": true
+        }
+    },
+    "data_loader": {
+        "root":"data/AudioCaps",
+        "dataset":"AudioCaps",
+        "batch_size": 128,
+        "split_name": "val",
+        "num_test_captions": 1,
+        "max_words": 20,
+        "audio_padding_length": {
+            "lms":10,
+            "vggish": 10,
+            "panns_cnn10": 62,
+            "panns_cnn14": 31,
+            "vggsound": 29,
+            "efficient_latent":32
+            }
+    },
+    "metrics": [
+        "t2a_metrics",
+        "a2t_metrics"
+    ],
+    "trainer": {
+        "epochs": 20
+    },
+    "eval_settings": {
+        "data_loader": {
+            "args": {
+                "split_name": "test",
+                "num_test_captions": 5
+            }
+        },
+        "tester": {
+            "save_dir": "data/saved/",
+            "verbosity": 2
+        },
+        "disable_gpu": true
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "n_gpu": 1,
+    "seed": 0,
+    "disable_nan_checks": false,
+    "log_name": "info.json",
+    "experts": {
+        "drop_feats": "",
+        "text_feat": "openai",
+        "modalities": [],
+        "ce_shared_dim": 768
+    },
+    "arch": {
+        "type": "Net",
+        "args": {
+            "l2renorm": true,
+            "text_agg":"vlad",
+            "vlad_clusters": {
+                "text": 20,
+                "lms": 12,
+                "vggish": 12,
+                "panns_cnn10": 12,
+                "panns_cnn14": 12,
+                "vggsound": 12,
+                "efficient_latent":12
+            },
+            "ghost_clusters": {
+                "text": 0
+            },
+            "hidden_size": {
+                "text": 2048,
+                "vggish": 128,
+                "panns_cnn10": 512,
+                "panns_cnn14": 2048,
+                "vggsound": 512
+            },
+            "transformer_width":{ 
+                "text": 512,
+                "vggish": 512,
+                "panns_cnn10": 512,
+                "panns_cnn14": 512,
+                "vggsound": 512
+            },
+            "transformer_heads":8,
+            "cross_num_hidden_layers":12,
+            "freeze_weights":true,
+            "verbose":false,
+            "num_layers":1,
+            "test_caption_mode":"indep"
+ 
+        }
+    },
+
+    "data_loader": {
+        "root":"data",
+        "dataset":"",
+        "text_encoder":"w2v",
+        "args":{
+            "root_feat_folder": "data/",
+            "feat_aggregation": {
+                "lms":{
+                    "model": "lms",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                },
+                "vggish": {
+                    "model": "vggish",
+                    "flaky": true,
+                    "temporal": "vlad",
+                    "type": "embed",
+                    "binarise": false
+                },
+                "panns_cnn10": {
+                    "model": "panns_cnn10",
+                    "flaky": true,
+                    "temporal": "vlad",
+                    "type": "embed",
+                    "binarise": false
+                },
+                "vggsound": {
+                    "model": "vggsound",
+                    "flaky": true,
+                    "temporal": "vlad",
+                    "type": "embed",
+                    "binarise": false
+                },
+                "panns_cnn14": {
+                    "model": "panns_cnn14",
+                    "flaky": false,
+                    "temporal": "vlad",
+                    "type": "embed",
+                    "binarise": false
+                },
+                "efficient_latent": {
+                    "model": "efficient_latent",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                }
+ 
+            }
+        }
+    },
+    "optimizer": {
+        "type": "Ranger",
+        "args":{
+            "lr": 0.1,
+            "weight_decay": 1e-3
+        }
+    },
+    "loss": {
+        "type": "MaxMarginRankingLoss",
+        "args": {
+            "margin": 0.09381161988446174,
+            "fix_norm": true
+        }
+    },
+    "metrics": [
+        "t2a_metrics",
+        "a2t_metrics"
+    ],
+    "lr_scheduler": {
+        "type": "StepLR",
+        "args": {
+            "step_size": 1,
+            "gamma": 0.95
+        }
+    },
+    "trainer": {
+        "save_only_best": true,
+        "save_dir": "saved/",
+        "save_period": 10,
+        "val_freq": 1,
+        "verbosity": 2,
+        "tensorboard": true,
+        "monitor": "max val_t2a_metrics_geometric_mean_R1-R5-R10"
+    }
+}

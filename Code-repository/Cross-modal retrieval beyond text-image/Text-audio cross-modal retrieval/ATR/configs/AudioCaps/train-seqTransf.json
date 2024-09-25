@@ -1,0 +1,41 @@
+{
+    "inherit_from": "configs/data_loader_audiocaps.json",
+    "arch": {
+        "args": {
+            "text_agg":"seqTransf",
+            "num_layers":1,
+            "transformer_width":{ 
+                "text": 512,
+                "panns_cnn14": 512
+            },
+            "transformer_heads":4,
+            "cross_num_hidden_layers":8
+ 
+        }
+    },
+    "trainer": {
+        "epochs": 50
+    },
+     "lr_scheduler": {
+        "type": "noam",
+        "args": {
+            "warmup_iters":900,
+            "step_size": 1,
+            "gamma": 0.95
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "panns_cnn14": {
+                    "model": "panns_cnn14",
+                    "flaky": false,
+                    "temporal": "seqTransf",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "inherit_from": "configs/data_loader_clotho.json",
+    "arch": {
+        "args": {
+            "text_agg":"seqLSTM",
+            "num_layers":1
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "panns_cnn14": {
+                    "model": "panns_cnn14",
+                    "flaky": false,
+                    "temporal": "seqLSTM",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

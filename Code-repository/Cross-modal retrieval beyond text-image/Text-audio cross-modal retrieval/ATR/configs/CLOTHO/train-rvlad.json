@@ -1,0 +1,22 @@
+{
+    "inherit_from": "configs/data_loader_clotho.json",
+    "arch": {
+        "args": {
+            "text_agg":"rvlad"
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "panns_cnn14": {
+                    "model": "panns_cnn14",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

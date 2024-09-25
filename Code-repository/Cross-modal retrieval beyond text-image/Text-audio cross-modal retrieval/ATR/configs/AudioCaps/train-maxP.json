@@ -1,0 +1,22 @@
+{
+    "inherit_from": "configs/data_loader_audiocaps.json",
+    "arch": {
+        "args": {
+            "text_agg":"maxP"
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "panns_cnn14": {
+                    "model": "panns_cnn14",
+                    "flaky": false,
+                    "temporal": "maxP",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "inherit_from": "configs/data_loader_clotho.json",
+    "experts": {
+        "modalities": [
+            "lms"
+        ]
+    },
+    "arch": {
+        "args": {
+            "text_agg":"rvlad"
+        }
+    },
+ 
+    "data_loader": {
+        "args":{
+            "feat_aggregation": {
+                "lms": {
+                    "model": "lms",
+                    "flaky": false,
+                    "temporal": "rvlad",
+                    "type": "embed",
+                    "binarise": false
+                }
+            }
+        }
+    }
+}
