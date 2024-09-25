@@ -1,0 +1,4 @@
+numpy==1.16.4
+tb-nightly==1.14.0a20190508
+tensorboard==1.14.0
+torch==1.2.0
