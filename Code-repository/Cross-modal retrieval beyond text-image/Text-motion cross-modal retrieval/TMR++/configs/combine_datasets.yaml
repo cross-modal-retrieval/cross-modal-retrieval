@@ -1,0 +1,20 @@
+defaults:
+  - defaults
+  - _self_
+
+annotations_path: datasets/annotations
+
+datasets:
+  - humanml3d
+  - kitml
+
+test_sets:
+  - humanml3d
+  - kitml
+
+filter_babel_seg: False
+
+split_suffix: ''
+
+min_duration: null
+max_duration: null

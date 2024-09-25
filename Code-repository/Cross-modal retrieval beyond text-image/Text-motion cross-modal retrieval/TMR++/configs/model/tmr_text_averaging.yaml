@@ -1,0 +1,5 @@
+defaults:
+  - tmr
+  - _self_
+
+_target_: src.model.tmr_text_averaging.TMRTextAveraging

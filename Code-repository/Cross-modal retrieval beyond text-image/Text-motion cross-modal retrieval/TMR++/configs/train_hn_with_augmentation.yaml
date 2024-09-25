@@ -1,0 +1,6 @@
+run_dir: outputs/${hydra:runtime.choices.model}_hn_${hydra:runtime.choices.data}_augmented_${hydra:runtime.choices.data/motion_loader}
+
+defaults:
+  - model: tmr_hn_text_averaging
+  - train_with_augmentation
+  - _self_

@@ -1,0 +1,10 @@
+defaults:
+  - tmr
+  - _self_
+
+contrastive_loss:
+  _target_: src.model.losses.HN_InfoNCE_with_filtering
+  temperature: 0.1
+  threshold_selfsim: 0.80
+  alpha: 0.999
+  beta: 0.5

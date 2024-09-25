@@ -1,0 +1,10 @@
+defaults:
+  - data: humanml3d
+  - defaults
+  - _self_
+
+device: cuda
+
+annotations_filename: annotations.json
+output_folder_name_token: token_embeddings
+output_folder_name_sent: sent_embeddings

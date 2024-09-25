@@ -1,0 +1,24 @@
+defaults:
+  - data: humanml3d
+  - defaults
+  - _self_
+
+device: cuda
+
+run_dir: ???
+save_file_name: contrastive_metrics_${hydra:runtime.choices.data}
+
+ckpt: last
+batch_size: 256
+
+split: test
+
+data:
+  _target_: src.data.text_motion_multi_labels.TextMotionMultiLabelsDataset
+  tiny: False
+
+  text_to_token_emb:
+    name: token_embeddings
+
+  text_to_sent_emb:
+    name: sent_embeddings

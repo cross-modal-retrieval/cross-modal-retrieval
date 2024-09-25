@@ -1,0 +1,19 @@
+defaults:
+  - motion_loader: guoh3dfeats
+  - _base
+  - _self_
+
+_target_: src.data.augmented_text_motion.AugmentedTextMotionDataset
+
+paraphrase_filename: annotations_paraphrased.json
+summary_filename: annotations_summarized.json
+paraphrase_prob: 0.2
+summary_prob: 0.2
+averaging_prob: 0.4
+text_sampling_nbr: null
+
+text_to_token_emb:
+  name: token_embeddings_all # TODO
+
+text_to_sent_emb:
+  name: sent_embeddings_all

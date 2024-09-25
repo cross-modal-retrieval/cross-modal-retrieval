@@ -1,0 +1,5 @@
+defaults:
+  - tmr_hn
+  - _self_
+
+_target_: src.model.tmr_HNInfoNCE_text_ensemble.TMR_HNInfoNCE_TextEnsemble

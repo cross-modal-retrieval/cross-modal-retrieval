@@ -1,0 +1,25 @@
+run_dir: outputs/${hydra:runtime.choices.model}_${hydra:runtime.choices.data}_${hydra:runtime.choices.data/motion_loader}
+
+defaults:
+  - data: hml3d_kitml
+  -  data_val: null
+  - train
+  - override model: tmr_text_averaging
+  - _self_
+
+data:
+  _target_: src.data.augmented_text_motion.AugmentedTextMotionDataset
+  paraphrase_filename: annotations_paraphrases.json
+  summary_filename: annotations_actions.json
+  paraphrase_prob: 0.2
+  summary_prob: 0.1
+  averaging_prob: 0.3
+  preload: True
+  text_sampling_nbr: null
+  
+  text_to_token_emb:
+    name: token_embeddings_all
+
+  text_to_sent_emb:
+    name: sent_embeddings_all
+
