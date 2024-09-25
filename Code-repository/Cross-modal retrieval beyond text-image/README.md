@@ -3,8 +3,8 @@ We gather representative cross-modal retrievalcodes beyond text-image that are a
 
 ## Text-video cross-modal retrieval
 **1. CLIP4Clip**  
-- **Paper:** 
-- **Source:** http://www.svcl.ucsd.edu/projects/crossmodal/  
+- **Paper:** https://www.sciencedirect.com/science/article/abs/pii/S0925231222008876
+- **Source:** https://github.com/ArrowLuo/CLIP4Clip  
 - **Reference:** H. Luo, L. Ji, M. Zhong, Y. Chen, W. Lei, N. Duan, and T. Li, “Clip4clip: An empirical study of clip for end to end video clip retrieval and captioning,” Neurocomputing, vol. 508, pp. 293–304, 2022.
 
 **2. Cap4Video**  
