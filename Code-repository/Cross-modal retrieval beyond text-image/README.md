@@ -1,4 +1,4 @@
-# Code Repository
+# Code Repository for Cross-modal Retrieval beyond Text-Image
 We gather commonly used baseline datasets for cross-modal retrieval tasks.
 
 ## List of datasets
