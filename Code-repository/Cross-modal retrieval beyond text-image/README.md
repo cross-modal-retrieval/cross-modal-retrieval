@@ -1,5 +1,5 @@
 # Code Repository for Cross-modal Retrieval beyond Text-Image
-We gather representative cross-modal retrievalcodes beyond text-image that are available.
+We gather representative cross-modal retrieval codes beyond text-image that are available.
 
 ## Text-video cross-modal retrieval
 **1. CLIP4Clip**  
