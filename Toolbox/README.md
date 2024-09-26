@@ -86,10 +86,11 @@ conda activate cmr_toolbox_torch
 ```  
 If the cross-modal retrieval method you want to run is using Matlab, you can skip this step, as no environment activation is required for Matlab.
 
-2. Run the cross-modal retrieval method
+2. Run any cross-modal retrieval method integrated into the toolbox, train the model, and test the cross-modal retrieval results.
 ``` bash
-python training.py
+python main.py
 ```
+Note
 
 ## Note
 Our toolbox is still in its initial version, and more cross-modal retrieval methods are continuously being added. If you have any questions, please feel free to leave us a message!
