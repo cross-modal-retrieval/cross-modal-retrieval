@@ -90,7 +90,7 @@ If the cross-modal retrieval method you want to run is using Matlab, you can ski
 ``` bash
 python main.py
 ```
-Note
+In `training.py`, the required hyper-parameters have been initialized. You can use `--category` to specify the overarching category of cross-modal retrieval methods, `--model_name` to specify the cross-modal retrieval method, `--dataset_name` to specify the dataset, and `--code_len` to set the hash code length for hashing-based cross-modal retrieval methods.
 
 ## Note
 Our toolbox is still in its initial version, and more cross-modal retrieval methods are continuously being added. If you have any questions, please feel free to leave us a message!
