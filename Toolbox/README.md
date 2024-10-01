@@ -100,8 +100,9 @@ If you find this toolbox helpful, please cite our paper:
 ```
 @article{li2023cross,
       title={Cross-modal retrieval: a systematic review of methods and future directions},
-      author={Li, Fengling and Zhu, Lei and Wang, Tianshi and Li, Jingjing and Zhang, Zheng and Shen, Heng Tao},
+      author={Tianshi Wang and Fengling Li and Lei Zhu and Jingjing Li and Zheng Zhang and Heng Tao Shen},
       journal={arXiv preprint arXiv:2308.14263},
-      year={2023}
+      year={2024},
+      url={https://arxiv.org/abs/2308.14263}
       }
 ```
